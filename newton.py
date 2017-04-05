@@ -1,9 +1,9 @@
-start = -1
+start = #numer closest to the root we want
 numberofsteps = 8
 x = start
 
 for n in range(1, numberofsteps):
-  print(n, x)
-  g = (4 * x ** 3) + (3 * x ** 2) + (2 * x) + 2
-  gprime = (12 * x ** 2) + (6 * x) + 2
+  print(n, x) 
+  g = # g(x), the polynomial we are seaching the roots
+  gprime = # g'(x), derivative of g(x)
   x -= g/gprime
